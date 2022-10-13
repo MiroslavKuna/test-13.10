@@ -1,12 +1,36 @@
 #index{
     font-family: 'Roboto', sans-serif;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.514);
 }
-ul{
+#news{
+    font-family: 'Silkscreen', cursive;
+    background-color: rgba(64, 185, 241, 0.534);
+}
+#about{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.nav{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
 }
-h1{
-    text-align: center;
+#newsCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+
+}
+li{
+    padding: 50px;
+    border: solid 5px;
+    background-color: rgba(77, 93, 236, 0.281);
+    width: 150px;
+    height: 100%;
+    margin: 20px;
 }
