@@ -1,5 +1,12 @@
+#index{
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+}
 ul{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+}
+h1{
+    text-align: center;
 }
